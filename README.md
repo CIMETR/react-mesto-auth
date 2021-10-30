@@ -29,6 +29,6 @@
 ---
 
 <br />
-[Проект](https://cimetr.github.io/react-mesto-auth/)
+[Проект](https://cimetr.github.io/react-mesto-auth/index.html)
 
 ---
