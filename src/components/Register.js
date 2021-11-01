@@ -36,7 +36,6 @@ export default function Register({ onRegister }) {
           value={email || ''}
           onChange={handleChange}
         />
-        {/* <span className="popup__input-error userName-input-error"></span> */}
         <input
           name="Password"
           type="password"
@@ -49,7 +48,6 @@ export default function Register({ onRegister }) {
           value={password || ''}
           onChange={handleChange}
         />
-        {/* <span className="popup__input-error userAbout-input-error"></span> */}
       </AuthPage>
     </div>
   )

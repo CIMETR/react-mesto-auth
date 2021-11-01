@@ -1,7 +1,7 @@
 import React from 'react'
 import AuthPage from './AuthPage'
 
-export default function Register({ onAuth }) {
+export default function Login({ onAuth }) {
 
   const [email, setEmail] = React.useState('')
   const [password, setPassword] = React.useState('')
@@ -36,7 +36,6 @@ export default function Register({ onAuth }) {
           value={email || ''}
           onChange={handleChange}
         />
-        {/* <span className="popup__input-error userName-input-error"></span> */}
         <input
           name="Password"
           type="password"
@@ -49,7 +48,6 @@ export default function Register({ onAuth }) {
           value={password || ''}
           onChange={handleChange}
         />
-        {/* <span className="popup__input-error userAbout-input-error"></span> */}
       </AuthPage>
     </div>
   )

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import PopupWithForm from './PopupWithForm'
-// import Form from './Form'
 
 function AddPlacePopup({ isOpen, onAddPlace, onClose }) {
   const [name, setName] = React.useState('')
@@ -62,12 +61,6 @@ function AddPlacePopup({ isOpen, onAddPlace, onClose }) {
         value={link}
       />
       <span className="popup__input-error placeUrl-input-error"></span>
-      {/* <button
-        type="button"
-        className="popup__close-button"
-        onClick={onClose}
-      >
-      </button>         */}
     </PopupWithForm>
   )
 }

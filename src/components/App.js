@@ -12,7 +12,7 @@ import EditAvatarPopup from './EditAvatarPopup'
 import AddPlacePopup from './AddPlacePopup'
 import ProtectedRoute from './ProtectedRoute';
 import Login from './Login'
-import Register from './Rigister'
+import Register from './Register'
 import * as auth from '../utils/auth'
 import InfoTooltip from './InfoTooltip'
 import success from '../images/success.svg'
@@ -188,14 +188,14 @@ function App() {
             handleCardDelete={handleCardDelete}
             cards={cards}
           />
-          <Route path='/sign-in'>
+          <Route path='/sign-up'>
             <Register
               isOpen={isEditProfilePopupOpen}
               onRegister={handleRegistration}
               isInfoTooltipOpen={isInfoTooltipOpen}
             />
           </Route>
-          <Route path='/sign-up'>
+          <Route path='/sign-in'>
             <Login
               isOpen={isEditProfilePopupOpen}
               onAuth={handleAuth}

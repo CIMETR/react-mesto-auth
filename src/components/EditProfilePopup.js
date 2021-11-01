@@ -45,7 +45,8 @@ function EditProfilePopup({ isOpen, onUpdateUser, onClose }) {
         id="userName-input"
         placeholder="Имя"
         minLength="2"
-        maxLength="40" pattern="^[a-zA-Zа-яА-я-\s]+$"
+        maxLength="40" 
+        pattern="^[a-zA-Zа-яА-я-\s]+$"
         required
         value={name || ''}
         onChange={handleNameChange}
