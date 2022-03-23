@@ -28,7 +28,6 @@
 * Добавить подтверждение от пользователя при удалении карточки.
 ---
 
-<br />
 [Проект](https://cimetr.github.io/react-mesto-auth/index.html)
 
 ---
